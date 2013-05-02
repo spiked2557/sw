@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/mobileapp/!svn/ver/5/src/com/tugraz/parkreminder
+END
+AlarmReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mobileapp/!svn/ver/5/src/com/tugraz/parkreminder/AlarmReceiver.java
+END
+CountdownActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mobileapp/!svn/ver/7/src/com/tugraz/parkreminder/CountdownActivity.java
+END
+TimePickerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mobileapp/!svn/ver/5/src/com/tugraz/parkreminder/TimePickerFragment.java
+END
+ParkingReminder.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mobileapp/!svn/ver/7/src/com/tugraz/parkreminder/ParkingReminder.java
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mobileapp/!svn/ver/7/src/com/tugraz/parkreminder/MainActivity.java
+END
+LocationReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mobileapp/!svn/ver/5/src/com/tugraz/parkreminder/LocationReceiver.java
+END

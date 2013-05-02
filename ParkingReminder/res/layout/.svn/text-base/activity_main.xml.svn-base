@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    tools:context=".MainActivity" >     
+    
+    <fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_above="@+id/bottomLayout"
+    android:layout_alignParentTop="true"/>
+ 
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/countdownLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+       <LinearLayout
+        android:id="@+id/countdownLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/parkingEndTextView"
+            android:gravity="center"
+            style="@style/textStyle"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="14:07"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:gravity="center"
+            style="@style/textStyle"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="300m"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         </LinearLayout>
+             
+	     <LinearLayout
+	        android:id="@+id/countdownLayoutTop"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >    
+	        
+	         <ImageView
+			    android:id="@+id/imageViewToCar"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:layout_weight="1"
+			    android:paddingTop="5dp"
+			    android:src="@drawable/tocar" />
+	         
+	        <TextView
+	            android:id="@+id/countdownTextView"
+	            style="@style/countdownStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+
+	            android:layout_weight="1"
+	            android:text="05:15:40"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+			
+
+			 </LinearLayout>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/addAlarmButton"
+        style="@style/buttonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:onClick="showTimePickerDialog"
+        android:text="@string/add_alarm" />
+
+    </LinearLayout>
+
+    
+
+</RelativeLayout>
